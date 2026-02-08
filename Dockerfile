@@ -20,4 +20,4 @@ ENV PORT=4001
 EXPOSE ${PORT}
 
 # Run with tsx watch mode for auto-reload
-CMD ["pnpm", "exec", "tsx", "watch", "src/index.ts"]
+CMD ["pnpm", "dev"]
